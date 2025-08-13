@@ -1,0 +1,149 @@
+----- Page 207 Exercise -----
+
+1) Tree 
+CONCRETE : Golf course simulation
+In a golf simulation program,  Tree might be a concrete class 
+(perhaps a subclass of Obstacle),
+
+ABSTRACT : Tree nursery application  
+In a tree nursery app, you'd need detailed distinctions between 
+tree species (Oak, Pine, etc.)
+
+
+2) House 
+CONCRETE : Real estate listing app
+In a property listing app, House can be a concrete class holding basic data 
+like address, price, and number of rooms.
+
+ABSTRACT : Architectural design software
+Different types of houses (Bungalow, Duplex, Mansion) have different 
+construction rules, so House would be abstract with specialized subclasses
+
+  
+3) Town   
+CONCRETE : Weather tracking app
+If you're just associating weather data with a town, 
+the Town class can be a concrete data holder.
+ 
+ABSTRACT : Government simulation game
+A simulation like SimCity might model different types of towns 
+(industrial, rural, smart city), so Town would be abstract  
+
+  
+4) Football Player  
+CONCRETE : Statistics tracking system
+In an app that only tracks player stats (goals, assists), 
+FootballPlayer can be a concrete class.
+
+ABSTRACT : Football team management game/FIFA
+Different player roles (Goalkeeper, Defender, Striker) would have unique 
+behaviors, so FootballPlayer would be abstract
+
+  
+5) Chair   
+CONCRETE : Home decor AR app
+For a simple augmented reality app showing a chair in your room,
+Chair could be concrete with ready-to-use models.
+
+ABSTRACT : Furniture design software
+A class Chair might be abstract, with subclasses like 
+OfficeChair, DiningChair, each with unique design and features
+ 
+
+6) Customer 
+CONCRETE : Client Tracking App 
+In a simple customer management tool, Customer can be a concrete class 
+representing user information and interactions.
+
+ABSTRACT : Multi-tier eCommerce platform
+Customer could be abstract to allow specialized subclasses like 
+RetailCustomer, WholesaleCustomer, or CorporateCustomer
+   
+7) Sales Order  
+CONCRETE : Point-of-sale application
+In a POS app, SalesOrder can be concrete with fields for 
+products, quantity, and payment status
+
+ABSTRACT : Business Management System
+SalesOrder might be abstract with specific types like
+DomesticOrder and InternationalOrder 
+
+  
+8) Book   
+CONCRETE : Online bookstore
+If only print books are sold, Book can be a concrete class with 
+title, author, price, and ISBN.
+
+ABSTRACT : Library system
+Book might be abstract, with subclasses like 
+PrintedBook, EBook, or AudioBook, each with different lending policies
+
+  
+9) Store  
+CONCRETE : Loyalty card mobile app
+If all locations are treated equally, Store can be a concrete class storing 
+location, ID, and operating hours
+
+ABSTRACT : Retail chain inventory system
+Store might be abstract with subclasses like 
+PhysicalStore, OnlineStore, or PopUpStore
+
+   
+10) Supplier  
+CONCRETE : Purchase order tracker
+If all suppliers are treated uniformly, Supplier can be concrete with 
+name, contact info, and reliability rating
+
+ABSTRACT : Supply chain management system
+Supplier could be abstract to allow specialized suppliers like 
+LocalSupplier, InternationalSupplier, or DropShipper
+  
+
+11) Golf Club  
+CONCRETE :  Mini-golf game
+If the game doesn’t distinguish between club types, 
+GolfClub can be a concrete object used for all shots.
+
+ABSTRACT : Golf equipment inventory system
+GolfClub could be abstract with subclasses like 
+Driver, Putter, and Iron, each with different specs   
+
+  
+12) Carburetor 
+CONCRETE :  Vehicle maintenance app
+If you just need to reference whether a vehicle has a carburetor, 
+it can be a concrete class with make/model fields. 
+
+ABSTRACT : Automotive component simulation
+In an engine design simulator, Carburetor might be abstract with types like 
+SingleBarrel, DoubleBarrel   
+
+   
+13) Oven
+CONCRETE : Cooking timer app
+If it’s just for setting timers or tracking usage, 
+Oven can be a concrete class with simple functionality. 
+
+ABSTRACT : Smart kitchen system
+Oven can be abstract with subclasses like 
+ConvectionOven, MicrowaveOven, or PizzaOven—each with different logic   
+
+    
+----- Page 233 Exercise -----
+1) public class Click {}
+public class Clack extends Click {}
+
+2) public abstract class Top {}
+public class Tip extends Top {}
+
+3) public abstract class Fee{}
+public abstract class Fi extends Fee{}
+
+4) public interface Foo {}
+public class Bar implements Foo {}
+public class Baz extends Bar {}
+
+5) public interface Zeta {}
+public class Alpha implements Zeta {}
+public interface Beta {}
+public class Delta extends Alpha implements Beta {}

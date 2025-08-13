@@ -1,0 +1,33 @@
+----- Page 22 Exercise -----
+  ----- Java Cross -----
+
+
+ Across
+ 4.  Command line invoker : JAVA
+ 6.  Back again? : LOOP
+ 8.  Can’t go both ways : BRANCH
+ 9.  Acronym for your laptop’s power : DC
+ 12.  Number variable type : INT
+ 13.  Acronym for a chip : IC
+ 14.  Say something : SYSTEM.OUT.PRINT
+ 18.  Quite a crew of characters : STRING
+ 19.  Announce a new class or method : DECLARE
+ 21.  What’s a prompt good for? : COMMAND
+
+
+Down
+ 1.  Not an integer (or _____ your boat) : FLOAT
+ 2.  Come back empty-handed : VOID
+ 3.  Open house : PUBLIC
+ 5.  ‘Things’  holders : ARRAYS
+ 7.  Until attitudes improve : WHILE 
+ 10.  Source code consumer : COMPILER
+ 11.  Can’t pin it down : VARIABLE
+ 13.  Department for programmers and operations : IT
+ 15.  Shocking modifier : STATIC
+ 16.  Just gotta have one : MAIN
+ 17.  How to get things done : METHOD
+ 20.  Bytecode consumer : JVM
+
+
+

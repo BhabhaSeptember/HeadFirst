@@ -1,0 +1,93 @@
+----- Page 470 Exercise -----
+    --- Yours To Solve ---
+
+1) CHECK BOX: 
+actionPerformed(), itemStateChanged(), mousePressed(),  
+mouseExited(), focusGained()
+
+2) TEXT FIELD: 
+actionPerformed(), mousePressed(), keyTyped(),  
+mouseExited(), focusGained()
+
+3) SCROLLING LIST: 
+itemStateChanged(), mousePressed(), 
+mouseExited(), focusGained()
+ 
+4) BUTTON: 
+actionPerformed(), mousePressed(), 
+mouseExited(), focusGained() 
+
+5) DIALOG BOX: 
+windowClosing(), mousePressed(), 
+mouseExited(), focusGained()
+
+6) RADIO BUTTON: 
+actionPerformed(), itemStateChanged(), mousePressed(),
+mouseExited(), focusGained()
+
+7) MENU ITEM: 
+actionPerformed(), mousePressed(),
+mouseExited(), focusGained()
+
+====================================================================================
+
+----- Page 78 Exercise -----
+    --- Yours To Solve ---
+
+frame.getContentPane().add(BorderLayout.CENTER, MyDrawPanel);
+frame.getContentPne().add(BorderLayout.SOUTH, button);
+
+====================================================================================
+
+----- Page 493 Exercise -----
+
+class MainGUI {
+private JFrame = frame;
+
+//code to continually change x & y co-ordinates (loop)
+
+    class DrawPanel extends JPanel {
+
+        public void paintComponent() {
+            g.setColor(color);
+            g.fillOval(x, y, width, height);
+        }
+        
+    }//close inner class
+
+}//close outer class
+
+====================================================================================
+
+----- Page 495 Exercise -----
+    --- Yours To Solve ---
+
+1) x + 3        x - 3 
+   y + 3        y + 3
+
+2) x + 3        x + 3
+   y            y - 3
+
+3) x - 3        x - 3
+   y            y - 3
+
+====================================================================================
+
+----- Page 504 Exercise -----
+
+I got the whole GUI, in my hands = JFrame
+Every event type has one of these = listener interface 
+The listener’s key method = actionPerformed() 
+This method gives JFrame its size = setSize()  
+You add code to this method but never call it = paintComponent()  
+When the user actually does something, it’s an = event
+Most of these are event sources = swing components
+I carry data back to the listener = event object  
+An addXxxListener( ) method says an object is an = event source 
+How a listener signs up =add<EventType>Listener()
+The method where all the graphics code goes = paintComponent() 
+I’m typically bound to an instance = inner class  
+The “g” in (Graphics g) is really of this class = Graphics2D  
+The method that gets paintComponent( ) rolling = repaint()  
+The package where most of the Swingers reside = javax.swing
+

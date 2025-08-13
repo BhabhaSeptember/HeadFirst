@@ -1,0 +1,31 @@
+----- Page 164 Exercise -----
+
+ Across
+ 1.  I can’t behave : PRIMITIVE
+ 6.  Or, in the courtroom : OBJECT
+ 7.  Where it’s at baby : INDEXOF
+ 9.  A fork’s origin : IF
+ 12.  Grow an ArrayList : ADD
+ 13.  Wholly massive : LONG
+ 14.  Value copy : GET
+ 16.  Not an object : INT
+ 17.  An array on steroids : ARRAYLIST
+ 19.  Extent : SIZE
+ 21.  19’s counterpart : LENGTH
+ 22.  Spanish geek snacks (Note: This has nothing to do with Java.) : TAPAS
+ 23.  For lazy fingers : IMPORT
+ 24.  Where packages roam : LIBRARY
+
+ Down
+ 2.  Where the Java action is : METHOD
+ 3.  Addressable unit : ELEMENT
+ 4.  2nd smallest : SHORT
+ 5.  Fractional default : DOUBLE
+ 8.  Library’s grandest : PACKAGE
+ 10.  Must be low density : FLOAT
+ 11.  He’s in there somewhere : CONTAINS
+ 15.  As if : VIRTUAL
+ 16.  dearth method : ISEMPTY
+ 18.  What shopping and arrays have in common : LIST
+ 20.  Library acronym : API
+ 21.  What goes around : LOOP

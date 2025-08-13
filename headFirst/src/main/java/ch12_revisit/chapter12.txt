@@ -1,0 +1,10 @@
+----- Page 374 Exercise -----
+
+1) Changes the current element in the stream into something else : MAP
+2) Sets the maximum number of elements that can be output from this Stream : LIMIT
+3) While a given criteria is true, will not process elements : DROPWHILE
+4) Only allows elements that match the given criteria to remain in the Stream : FILTER
+5) Will only process elements while the given criteria is true : TAKEWHILE
+6) States the result of the stream should be ordered in some way : SORTED
+7) This is the number of elements at the start of the Stream that will not be processed : SKIP 
+8) Use this to make sure duplicates are removed : DISTINCT

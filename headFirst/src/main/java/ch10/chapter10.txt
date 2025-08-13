@@ -1,0 +1,88 @@
+----- Page 287 Exercise ----- (revisit)
+
+1) public class Foo {
+    static int x;
+
+    public void go() {
+     System.out.println(x);
+    }
+   }
+
+ANSWER: Legal
+
+
+2) public class Foo2 {
+    int x;
+
+    public static void go() {
+     System.out.println(x);
+    }
+   }
+
+ANSWER: Illegal, we cannot access a non-static instance variable inside a 
+static method
+
+
+3) public class Foo3 {
+    final int x;
+
+    public void go() {
+    System.out.println(x);
+    }
+   }
+
+ANSWER: Illegal, instance variable is declared as final but has not
+been initialized yet so we cannot use it
+
+
+4) public class Foo4 {
+     static final int x = 12;
+
+    public void go() {
+    System.out.println(x);
+    }
+   }
+
+ANSWER: Legal
+
+
+5) public class Foo5 {
+    static final int x = 12;
+
+    public void go(final int x) {
+     System.out.println(x);
+    }
+   }
+
+ANSWER: Legal
+
+
+
+6) public class Foo6 {
+    int x = 12;
+
+    public static void go(final int x) {
+    System.out.println(x);
+    }
+   }
+
+ANSWER: Legal, we are printing out the method parameter x, and not
+the instance variable x
+
+
+----- Page 307 Exercise -----
+
+1. To use the Math class, the first step is to make an instance of it : FALSE
+2. You can mark a constructor with the static keyword : FALSE
+3. Static methods don’t have access to instance variable state of the “this” object : TRUE
+4. It is good practice to call a static method using a reference variable : FALSE
+5. Static variables could be used to count the instances of a class : TRUE
+6. Constructors are called before static variables are initialized : FALSE
+7. MAX_SIZE would be a good name for a static final variable : TRUE
+8. A static initializer block runs before a class’s constructor runs : TRUE
+9. If a class is marked final, all of its methods must be marked final : FALSE
+10. A final method can be overridden only if its class is extended : FALSE
+11. There is no wrapper class for boolean primitives : FALSE
+12. A wrapper is used when you want to treat a primitive like an object : TRUE
+13. The parseXxx methods always return a String : FALSE
+14. Formatting classes (which are decoupled from I/O) are in the java.format package : FALSE

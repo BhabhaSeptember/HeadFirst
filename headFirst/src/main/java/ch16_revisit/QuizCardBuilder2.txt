@@ -1,0 +1,3 @@
+What data type are Arrays in Java?/Objects
+Which data type stores characters i.e. phrases and sentences?/String
+/

@@ -1,0 +1,29 @@
+----- Page 244 Exercise ----
+
+1)Increment a counter to track how many objects of this class type have been made.
+Useful to assign a unique car number or ID, like "Car #3" out of all the racing cars.
+
+2) Assign runtime-specific state (data about what’s happening NOW).
+Set current fuel level, initial speed (0), tire temperature, or 
+starting line position.
+
+3) Assign values to the object’s important instance variables.
+Essential for setting car model, color, driver name, or initial stats like 
+horsepower or weight.
+
+4) Get and save a reference to the object that’s creating the new object.
+If a Team object or RaceManager is creating the car, 
+the Car might need a reference to notify/report back to it.
+
+5) Add the object to an ArrayList.
+When creating a car, automatically add it to the ArrayList<Car> that tracks all cars 
+in the race.
+
+6) Create HAS-A objects.
+If the car "has-a" Engine, Tire, or GPS, the constructor should create or receive 
+those sub-objects.
+
+✳️ Your own idea:
+7) Register the car with the game's event system.
+So the car can receive game events like collisions, lap completions, or 
+weather changes.

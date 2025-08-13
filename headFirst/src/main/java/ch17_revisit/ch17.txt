@@ -1,0 +1,24 @@
+----- Page 600 Exercise -----
+    --- Yours to Solve ---
+
+A)
+ 
+1)  To read text from a SocketChannel:
+SERVER--> SocketChannel(bytes from server)--> Reader--> BufferedReader--> CLIENT
+
+2) To send text to a SocketChannel:
+CLIENT--> PrintWriter--> Writer--> SocketChannel(bytes to server)--> SERVER
+
+
+B)
+
+1) What two pieces of information does the client need in order to make a connection with a 
+server? = Server IP address and TCP Port number
+
+2) Which TCP port numbers are reserved for “well-known services” like 
+HTTP and FTP? = 0 through 1023 
+
+3)
+TRUE or FALSE:  The range of valid TCP port numbers can be represented 
+by a short primitive. = FALSE in Java, because Java short can’t hold values above 
+32,767

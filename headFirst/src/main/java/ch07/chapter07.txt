@@ -1,0 +1,62 @@
+----- Page 171 Exercises ---
+
+1) How many instance variables does Surgeon have?
+Answer: ONE
+one inherited instance variable 'worksAtHospital'
+
+
+2) How many instance variables does FamilyDoctor have?
+Answer: TWO
+one inherited instance variable 'worksAtHospital' and 
+one unique 'makesHouseCalls'
+
+
+3) How many methods does Doctor have?
+Answer: ONE
+one method 'treatPatient()'
+
+
+4) How many methods does Surgeon have?
+Answer: TWO
+one inherited and overridden method 'treatPatient()'
+one new, unique method 'makeIncision()'
+
+
+5) How many methods does FamilyDoctor have?
+Answer: TWO
+one inherited method 'treatPatient()'
+one new, unique method 'giveAdvice()'
+
+
+6) Can a FamilyDoctor do treatPatient()?
+ANSWER: YES
+
+
+7) Can a FamilyDoctor do makeIncision()?  
+ANSWER: NO
+
+
+
+----- Page 178 Exercises ---
+ 
+ CLASS               SUPERCLASS                SUBCLASSES
+Musician                 --            Rock Star, Bass Player, Concert Pianist      
+Rock Star              Musician                    --
+Fan                      --                        --
+Bass Player            Musician                    --
+Concert Pianist        Musician                    --
+
+
+
+----- Page 181 Exercise -----
+1) Oven extends Kitchen : NO
+2) Guitar extends Instrument : YES
+3) Person extends Employee : NO
+4) Ferrari extends Engine : NO
+5) FriedEgg extends Food : YES
+6) Beagle extends Pet : YES
+7) Container extends Jar : NO
+8) Metal extends Titanium : NO
+9) GratefulDead extends Band : YES
+10) Blonde extends Smart : NO
+11) Beverage extends Martini : NO

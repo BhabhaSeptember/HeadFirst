@@ -1,0 +1,54 @@
+----- Page 52 Exercise -----
+SUMMARY NOTES:
+byte = 8bits    | -128 to 127
+short = 16bits  | -32,768 to 32,767
+int = 32bits    | -2,147,483,648 to 2,147,483,647
+
+ 1. int x = 34.5;     //illegal
+ 2. boolean boo = x;  //illegal
+ 3. int g = 17;       //legal
+ 4. int y = g;        //legal
+ 5. y = y + 10;       //legal
+ 6. short s;          //legal 
+ 7. s = y;            //illegal 
+ 8. byte b = 3;       //legal
+ 9. byte v = b;       //legal
+ 10. short n = 12;    //legal
+ 11. v = n;           //illegal
+ 12. byte k = 128;    //illegal 
+
+
+
+----- Page 60 Exercise -----
+CODE & SUMMARY:
+// Declares an array variable that can hold Dog objects
+Dog[] pets; 
+// Creates an array with space for 7 Dog references (index 0–6)
+pets = new Dog[7];   
+// Instantiates a new Dog and assigns it to index 0      
+pets[0] = new Dog(); 
+// Instantiates another Dog and assigns it to index 1      
+pets[1] = new Dog();        
+
+KEY POINTS
+pets is an array of Dog objects.
+The array can hold 7 dogs, but only the first two (pets[0] and
+pets[1]) are actually created and initialized.
+The remaining indices (pets[2] to pets[6]) still contain null
+
+
+QUESTIONS & ANSWERS:
+1) What is the current value of pets[2]? 
+Answer : null
+it is a dog object, reference variable with no Dog object referenced by it 
+
+2) What code would make pets[3] refer to on of the two existing Dog objects?
+Answer : 
+pets[3] = pets[0];
+
+
+
+
+
+
+

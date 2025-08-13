@@ -1,0 +1,64 @@
+----- Page 87 Exercise -----
+
+        --- METHOD ---
+
+int calcArea(int height, int width) {
+   return height * width;
+ }
+
+
+        --- Answers --- 
+1) 
+int a = calcArea(7, 12); //LEGAL 
+
+2)
+ short c = 7;
+ calcArea(c, 15); //LEGAL - short is automatically promoted to an int type
+
+3) 
+int d = calcArea(57); //ILLEGAL
+
+4)
+calcArea(2, 3); //LEGAL
+
+5)
+long t = 42;
+int f = calcArea(t, 17); //ILLEGAL - long requires explicit casting
+
+6)
+int g = calcArea(); //ILLEGAL
+
+7)
+calcArea(); //ILLEGAL
+
+8)
+byte h = calcArea(4, 20); //ILLEGAL
+
+9)
+int j = calcArea(2, 3, 5); //ILLEGAL
+
+
+
+----- Page 89 Exercise -----
+
+A class can have any number of these : INSTANCE VARIABLES, GETTER, SETTER, METHOD 
+A method can have only one of these : RETURN
+This can be implicitly promoted : RETURN, ARGUMENT
+I prefer my instance variables private : ENCAPSULATION
+It really means “make a copy.” : PASS BY VALUE
+Only setters should update these : INSTANCE VARIABLE
+A method can have many of these : ARGUMENT
+I return something by definition : GETTER
+I shouldn’t be used with instance variables : PUBLIC
+I can have many arguments : METHOD
+By definition, I take one argument : SETTER
+These help create encapsulation : GETTER, SETTER, PRIVATE, PUBLIC
+I always fly solo : RETURN
+
+
+----- Page 92 FiveMinuteMystery -----
+
+Jai probably suspects that Buchanan did not make his instance variables private
+Although the methods are private, the instance variables are still accessible
+for the public to set and modify with no checks or restrictions
+ 

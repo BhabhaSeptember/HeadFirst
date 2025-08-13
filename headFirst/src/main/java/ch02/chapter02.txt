@@ -1,0 +1,59 @@
+----- Page 34 Exercise -----
+
+  --- Television Class ---
+
+Instance variables : 
+channel
+volume
+
+Methods: 
+changeChannel()
+turnOn()
+turnOff()
+increaseVolume()
+decreaseVolume()
+
+
+
+----- Page 37 Exercise -----
+
+--- MovieTestDrive Class ---
+
+object 1 :
+title = Gone with the Stock
+genre = Tragic
+rating = -2
+
+object 2 : 
+title = Lost in Cubicle Space
+genre = Comedy
+rating = 5
+
+object 3 : 
+title = Byte Club
+genre = Tragic but ultimately uplifting
+rating = 127
+
+
+----- Page 37 Exercise -----
+
+1) I am compiled from a .java file. : CLASS
+2) My instance variable values can be different from my buddy’s values : OBJECT
+3)  I behave like a template. : CLASS
+4)  I like to do stuff : METHOD, OBJECT
+5)  I can have many methods : CLASS, OBJECT
+6)  I represent “state.” : INSTANCE VARIABLE
+7)  I have behaviors : OBJECT, CLASS
+8)  I am located in objects : METHOD, INSTANCE VARIABLES
+9)  I live on the heap : OBJECT
+10)  I am used to create object instances : CLASS
+11)  My state can change : INSTANCE VARIABLE, OBJECT
+12)  I declare methods : CLASS
+13)  I can change at runtime : OBJECT, INSTANCE VARIABLE 
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+----- Page 107 Exercise -----
+
+METHOD public static void main (String []  args) 
+DECLARE an int variable to hold the number of user guesses, named numOfGuesses (initialize to 0)
+
+--------------------------------------ANSWER:--------------------------------------------------------
+CREATE new SimpleStartup instance
+-----------------------------------------------------------------------------------------------------
+
+COMPUTE a random number between 0 and 4 that will be the starting location cell position
+
+-------------------------------------------ANSWER:---------------------------------------------------
+CREATE int array with 3 ints using randomly generated number, 
+that number must be incremented by 1 and then by 2 (for consecutive 3 cells)
+
+INVOKE setLocationCells() method on SimpleStartup instance i.e. 
+assign the numbers for the Startup cells
+
+DECLARE boolean variable representing state of game i.e. is Startup still alive
+-----------------------------------------------------------------------------------------------------
+
+  WHILE the Startup is still alive:
+    GET user input from the command line 
+
+----------------------------------------------ANSWER:-----------------------------------------------
+    CHECK user guess
+    INVOKE checkYourself() method on SimpleStartup instance
+    INCREMENT numOfGuesses variable
+    CHECK if Startup is alive or not
+    IF result is 'kill'
+        SET boolean variable representing state of game to false (dont enter loop again)
+        PRINT number of user guesses
+    END IF STATEMENT
+  END WHILE LOOP
+END METHOD
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+----- Page 120 Exercise -----
+
+ACROSS
+ 1. Fancy computer word for build : IMPLEMENT
+ 4. Multipart loop : FOR
+ 6. Test first : EXTREME
+ 7. 32 bits : INT
+ 10.  Method’s answer : RETURN
+ 11.  Prep code-esque :PSEUDOCODE
+ 13.  Change : CAST
+ 15.  The big toolkit : API
+ 17.  An array unit : ELEMENT
+ 18.  Instance or local : VARIABLE
+ 20.  Automatic toolkit : JAVA.LANG
+ 22.  Looks like a primitive, but : INTEGER
+ 25.  Un-castable : BOOLEAN
+ 26.  Math method : RANDOM
+ 28.  Iterate over me : ARRAY
+ 29.  Leave early : BREAK
+
+
+DOWN
+ 2.  Increment type : PRE
+ 3.  Class’s workhorse : METHOD
+ 5.  Pre is a type of _____ : OPERATOR
+ 6.  For’s iteration ______ : EXPRESSION
+ 7.  Establish first value : INITIALIZE
+ 8.  While or For : LOOP
+ 9.  Update an instance variable : SET
+ 12.  Toward blastoff : DECREMENT
+ 14.  A cycle : ITERATION
+ 16.  Talkative package : JAVA.IO
+ 19.  Method messenger (abbrev.) : ARG        
+ 21.  As if : VIRTUAL
+ 23.  Add after : POST
+ 24.  Pi house : MATH
+ 26.  Compile it and ____ : RUN
+ 27.  ++ quantity : ONE
+
+

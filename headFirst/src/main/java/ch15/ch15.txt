@@ -1,0 +1,62 @@
+----- Page 520 Exercise -----
+    --- Yours to Solve ---
+
+code: (Refer to PanelFlowLayout class
+ JButton button = new JButton("shock me");
+ JButton buttonTwo = new JButton("bliss");
+ JButton buttonThree = new JButton("huh?");
+ panel.add(button);
+ panel.add(buttonTwo);
+ panel.add(buttonThree);
+
+output:
+the east region would expand further to accommodate the third button in the 
+same line as the other buttons but it would be smaller than the second button
+
+=========================================================================================
+
+----- Page 534 Exercise -----
+
+1) A - 4
+2) B - 6
+3) C - 1
+4) D - 2
+5) E - 3
+
+
+=========================================================================================
+
+----- Page 536 Exercise -----
+
+ Across
+ 1.  Artist’s sandbox  = DRAWPANEL
+ 4.  Border’s catchall = CENTER
+ 5.  Java look  = METAL
+ 9.  Generic waiter  = LISTENER
+ 11.  A happening  = EVENT
+ 12.  Apply a widget = ADD
+ 15.  JPanel’s default  = FLOW
+ 16.  Polymorphic test  = ISA
+ 17.  Shake it, baby  = ANIMATION
+ 21.  Lots to say  = TEXTAREA
+ 23.  Choose many = CHECKBOX
+ 25.  Button’s pal  = LABEL
+ 26.  Home of actionPerformed  = ACTIONLISTENER
+
+ Down
+ 2.  Swing’s dad  = AWT
+ 3.  Frame’s purview = SETSIZE
+ 5.  Help’s home  = MENU
+ 6.  More fun than text  = GRAPHIC
+ 7.  Component slang  = WIDGET
+ 8.  Romulin command  = SETVISIBLE
+ 9.  Arrange  = LAYOUT
+ 10.  Border’s top  = NORTH
+ 13.  Manager’s rules  = POLICY
+ 14.  Source’s behavior  = CALLBACK
+ 15.  Border by default  = FRAME
+ 18.  User’s behavior  = ACTION
+ 19.  Inner’s squeeze  = OUTER
+ 20.  Backstage widget  = PANEL
+ 22.  Classic Mac look   = AQUA
+ 24.  Border’s right  = EAST

@@ -1,0 +1,60 @@
+----- Page 574 Exercise -----
+    --- Yours to Solve ---
+
+
+ private void saveFile(File file) {
+    try {
+      BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+      for (QuizCard card : cardList) {
+        writer.write(card.getQuestion() + "/");
+        writer.write(card.getAnswer() + "\n");
+      }
+      writer.close();
+    } catch (IOException e) {
+      System.out.println("Couldn't write the cardList out: " + e.getMessage());
+    } finally {
+        writer.close();
+      }
+  }
+
+=======================================================================================
+
+----- Page 574 Exercise -----
+    --- Yours to Solve ---
+
+
+
+=======================================================================================
+
+----- Page 574 Exercise -----
+    --- Yours to Solve ---
+
+
+
+=======================================================================================
+
+----- Page 582 Exercise -----
+   
+1. Serialization is appropriate when saving data for 
+non-Java programs to use : FALSE
+2. Object state can be saved only by using serialization : FALSE
+3. ObjectOutputStream is a class used to save serializable objects : TRUE  
+4. Chain streams can be used on their own or with connection streams : FALSE
+5. A single call to writeObject() can cause many objects to be saved : TRUE  
+6. All classes are serializable by default : FALSE
+7. The java.nio.file.Path class can be used to locate files : FALSE
+8. If a superclass is not serializable, then the subclass 
+can’t be serializable : FALSE  
+9. Only classes that implement AutoCloseable can be used in 
+try-with-resources statements : TRUE
+10. When an object is deserialized, its constructor does not run : TRUE
+11. Both serialization and saving to a text file can throw exceptions : TRUE  
+12. BufferedWriters can be chained to FileWriters : TRUE    
+13. File objects represent files, but not directories : FALSE     
+14. You can’t force a buffer to send its data before it’s full : FALSE 
+15. Both file readers and file writers can optionally be buffered : TRUE  
+16. The methods on the Files class let you operate on 
+files and directories: TRUE
+ 17. Try-with-resources statements cannot include 
+explicit finally blocks : FALSE
+

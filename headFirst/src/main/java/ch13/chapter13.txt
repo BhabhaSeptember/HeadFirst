@@ -1,0 +1,135 @@
+----- Page 431 Exercise -----
+QUESTION: 
+Which of these do you think might throw an exception that the compiler should 
+care about? These are things that you CAN’T control in your code. 
+
+ANSWER:
+THINGS YOU WANT TO DO                               WHAT MIGHT GO WRONG
+(YES)-Connect to a remote server                    The server is down
+(NO) -Access an array beyond its length             Calculated the wrong index
+(YES)-Display a window on the screen                Display system is not available               
+(YES)-Retrieve data from a database                 Database is not reachable
+(YES)-See if a text file is where you think it is   File does not exist
+(YES)-Create a new file                             No disk space or permission denied
+(YES)-Read a character from the command line        Input stream closed or unreadable
+
+
+
+----- Page 439 Exercise -----
+CODE: 
+  try {
+      x.doRisky();
+    } catch(AlphaEx a) {
+      // recovery from AlphaEx
+    } catch(BetaEx b) {
+      // recovery from BetaEx
+    } catch(GammaEx c) {
+      // recovery from GammaEx
+    } catch(DeltaEx d) {
+     // recovery from DeltaEx
+   }
+
+QUESTION 1:
+Assume the try/catch block here is legally coded. Your task is to draw two 
+different class diagrams that can accurately reflect the Exception classes. 
+In other words, what class inheritance structures would make the try/
+ catch blocks in the sample code legal?
+
+
+ANSWER:
+1) DeltaEx <-- GammaEx <-- BetaEx <-- AlphaEx 
+
+2) DeltaEx(superclass) 
+   BetaEx extends DeltaEx and GammaEx extends DeltaEx
+   AlphaEx extends BetaEx
+
+
+QUESTION 2:
+try {
+x.doRisky();
+} catch(BoinkEx e) {
+//recovery from BoinkEx
+} catch(BarEx e) {
+//recovery from BarEx
+} catch(BiffEx e) {
+//recovery from BiffEx
+} catch(FooEx e) {
+//recovery from FooEx
+} catch(BazEx) {
+//recovery from BazEx
+}
+
+
+
+----- Page 454 Exercise -----
+--- TRUE OR FALSE ---
+
+ 1. A try block must be followed by a catch and a finally block. - FALSE
+ 2. If you write a method that might cause a compiler-checked exception, 
+    you must wrap that risky code in a try/catch block. - FALSE
+ 3. Catch blocks can be polymorphic. - TRUE
+ 4. Only “compiler checked” exceptions can be caught. - FALSE
+ 5. If you define a try/catch block, a matching finally block 
+    is optional. - TRUE
+ 6. If you define a try block, you can pair it with a matching catch or 
+    finally block, or both. - TRUE
+ 7. If you write a method that declares that it can throw a 
+    compiler-checked exception, you must also wrap the exception throwing code 
+    in a try/catch block. - FALSE
+ 8. The main( ) method in your program must handle all unhandled exceptions 
+    thrown to it. - FALSE
+ 9.  A single try block can have many different catch blocks. - TRUE
+ 10. A method can throw only one kind of exception. - FALSE
+ 11. A finally block will run regardless of whether an exception 
+     is thrown. - TRUE
+ 12. A finally block can exist without a try block. - FALSE
+ 13. A try block can exist by itself, without a catch block or 
+     a finally block. - FALSE
+ 14. Handling an exception is sometimes referred to as “ducking.” - FALSE
+ 15. The order of catch blocks never matters. - FALSE
+ 16. A method with a try block and a finally block can optionally declare a  
+    checked exception. - FALSE
+ 17. Runtime exceptions must be handled or declared. - FALSE
+
+
+--- Page 456 Exercise ---
+Across
+ 1.  To give value - ASSIGNMENT
+ 4.  Flew off the top - POPPED
+ 6.  All this and more! - SUBCLASS
+ 8.  Start - INVOKE
+ 10.  The family tree - HIERARCHY
+ 13.  No ducking - HANDLE
+ 15.  Problem objects - EXCEPTIONS
+ 18.  One of Java’s  ‘49’ - KEYWORD 
+ 20.  Class hierarchy - TREE
+ 21.  Too hot to handle - DUCK
+ 24.  Common primitive - INT
+ 25.  Code recipe - ALGORITHM
+ 27.  Unruly method action - THROWS
+ 28.  No Picasso here - CONCRETE
+ 29.  Start a chain of events - NEW
+
+Down
+ 2.  Currently usable - SCOPE
+ 3.  Template’s creation - INSTANCE
+ 4.  Don’t show the kids - PRIVATE
+ 5.  Mostly static API class - MATH
+ 7.  Not about behavior - STATE
+ 9.  The template - CLASS
+ 11.  Roll another one off the line - INSTANTIATE
+ 12.  Javac saw it coming - CHECKED 
+ 14.  Attempt risk - TRY
+ 16.  Automatic acquisition - INHERIT
+ 17.  Changing method - SETTER
+ 19.  Announce a duck - DECLARE
+ 22.  Deal with it - CATCH
+ 23.  Create bad news - THROW
+ 26.  One of my roles - ISA
+
+
+
+
+
+
+

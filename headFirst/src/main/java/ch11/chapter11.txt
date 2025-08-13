@@ -1,0 +1,66 @@
+----- Page 334 Exercise -----
+
+ Given: Collections.sort(myArrayList);
+
+1. What must the class of the objects stored in myArrayList implement?
+ANSWER: Comparable interface 
+
+2. What method must the class of the objects stored in myArrayList implement?
+ANSWER: compareTo() method
+
+3. Can the class of the objects stored in myArrayList implement both  
+Comparator AND Comparable? 
+ANSWER: yes
+
+
+Given: 
+Collections.sort(myArrayList, myCompare);
+myArrayList.sort(myCompare);
+
+4. Can the class of the objects stored in myArrayList implement Comparable?
+ANSWER: yes
+
+5. Can the class of the objects stored in myArrayList implement Comparator?
+ANSWER: yes
+
+6. Must the class of the objects stored in myArrayList implement Comparable?
+ANSWER: no
+
+7. Must the class of the objects stored in myArrayList implement Comparator?
+ANSWER: no
+
+8. What must the class of the myCompare object implement? 
+ANSWER: Comparator interface
+                                      
+9. What method must the class of the myCompare object implement? 
+ANSWER: compare() method
+
+
+----- Page 363 Exercise -----
+
+1) takeAnimals(new ArrayList<Animal>()); LEGAL
+
+2) takeDogs(new ArrayList<Animal>()); ILLEGAL
+
+3) takeAnimals(new ArrayList<Dog>()); ILLEGAL
+
+4) takeDogs(new ArrayList<>()); LEGAL
+
+5) List<Dog> dogs = new ArrayList<>(); LEGAL
+   takeDogs(dogs);                      
+
+6) takeSomeAnimals(new ArrayList<Dog>()); LEGAL
+
+7) takeSomeAnimals(new ArrayList<>()); LEGAL
+
+8) takeSomeAnimals(new ArrayList<Animal>()); LEGAL
+
+9) List<Animal> animals = new ArrayList<>(); LEGAL
+   takeSomeAnimals(animals);
+
+10) List<Object> objects = new ArrayList<>(); ILLEGAL
+    takeObjects(objects);
+
+11) takeObjects(new ArrayList<Dog>()); ILLEGAL
+
+12) takeObjects(new ArrayList<Object>()); LEGAL
