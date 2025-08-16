@@ -1,4 +1,4 @@
-package ch17_revisit;
+package ch17;
 
 //Thread schedular is unpredictable or 'not deterministic'
 import java.util.concurrent.ExecutorService;

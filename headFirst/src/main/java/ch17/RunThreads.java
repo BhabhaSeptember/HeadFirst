@@ -1,4 +1,4 @@
-package ch17_revisit;
+package ch17;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
