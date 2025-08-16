@@ -22,3 +22,39 @@ HTTP and FTP? = 0 through 1023
 TRUE or FALSE:  The range of valid TCP port numbers can be represented 
 by a short primitive. = FALSE in Java, because Java short can’t hold values above 
 32,767
+
+==============================================================================================
+
+----- Page 631 Exercise -----
+1) I need to be shut down or I might live forever 
+= ExecutorService
+
+2) I let you talk to a remote machine 
+= SocketChannel, Socket
+
+3) I might be thrown by sleep() and await() 
+= InterruptedException
+
+4) If you want to reuse Threads, you should use me 
+= Thread pool, ExecutorService
+
+5) You need to know me if you want to connect to another machine 
+= IP address, host name, port
+
+6) I’m like a separate process running on the machine 
+= Thread
+
+7) I can give you the ExecutorService you need 
+= Executors
+
+8) You need one of me if you want clients to connect to me 
+= ServerSocketChannel
+
+9) I can help you make your multithreaded code more predictable 
+= Thread.sleep(), CountDownLatch
+
+10) I represent a job to run 
+= Runnable
+
+11) I store the IP address and port of the server 
+= InetSocketAddress

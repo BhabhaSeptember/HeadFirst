@@ -2,11 +2,13 @@ ch04\PoorDogTestDrive.class
 ch13\TestExceptions.class
 ch13\BadException.class
 ch03\Sharpen.class
+ch17_revisit\SleepWithTimeUnit.class
 ch14\SimpleAnimation$MyDrawPanel.class
 ch06\Snippets.class
 ch07\MonsterTestDrive.class
 ch09\TestLifeOne.class
 ch11\TestTreeComparator.class
+ch17_revisit\ClosingTime.class
 ch11\ArtistCompare.class
 ch14\InnerButton.class
 ch08\Exercise$Gamma.class
@@ -37,6 +39,7 @@ ch01\Exercise1b.class
 ch03\TestArrays.class
 ch07\A.class
 ch10\ConstantInit3.class
+ch17_revisit\SimpleChatClient$IncomingReader.class
 ch15\ListExample.class
 ch02\Dog.class
 ch04\Foo.class
@@ -65,6 +68,7 @@ ch10\sharpen\Foo6.class
 ch09\Bear.class
 ch07\Surgeon.class
 ch12_revisit\StreamPuzzle.class
+ch17_revisit\NamedJob.class
 ch04\Puzzle4.class
 ch08\MyAnimalList.class
 ch11\Jukebox4.class
@@ -83,6 +87,7 @@ ch08\Exercise$Delta.class
 ch10\ConstantInit2.class
 ch11\TestGenerics1.class
 ch14\TwoButtons02_Lambdas.class
+ch17_revisit\PredictableRunOrder.class
 ch05\Snippets.class
 ch06\Egg.class
 ch13\ShirtException.class
@@ -143,6 +148,7 @@ ch05\GameHelper.class
 ch09\Honey.class
 ch14\MiniMusicPlayer1.class
 ch11\Cat.class
+ch17_revisit\LongJob.class
 ch13\Snippets.class
 ch09\TestDuck.class
 ch09\SuperclassConstructors$Animal.class
@@ -179,11 +185,13 @@ ch13\Risky.class
 ch15\Snippets.class
 ch04\TestStuff.class
 ch08\Exercise$Goop.class
+ch17_revisit\PredictableLatch.class
 ch11\SongV2.class
 ch16_revisit\Dog.class
 ch16_revisit\Pond.class
 ch12_revisit\OptionalExamples$IceCream.class
 ch17_revisit\ExecutorsTestDrive.class
+ch17_revisit\PredictableSleep.class
 ch07\Vampire.class
 ch09\Raccoon.class
 ch11\BookCompare.class
@@ -202,8 +210,10 @@ ch09\CellPhone.class
 ch15\TextArea1.class
 ch13\WashingMachine.class
 ch09\StackExample.class
+ch17_revisit\RunThreads.class
 ch12_revisit\Songs.class
 ch10\TestFormats.class
+ch17_revisit\SimpleChatClient.class
 ch14\GradientPanel.class
 ch16_revisit\QuizCardPlayer.class
 ch15\PanelFlowLayout.class
@@ -271,6 +281,7 @@ ch11\TestMap.class
 ch04\XCopy.class
 ch07\B.class
 ch12_revisit\StreamStuff.class
+ch17_revisit\PingingClient.class
 ch08\Exercise$Epsilon.class
 ch13\Foo.class
 ch16_revisit\Square.class
@@ -299,6 +310,7 @@ ch07\Canine.class
 ch07\Mixed2.class
 ch08\AnimalTestDrive.class
 ch16_revisit\Chat.class
+ch17_revisit\ShortJob.class
 ch14\Animate$MyDrawP.class
 ch04\PoorDog.class
 ch11\MockMoreSongs.class

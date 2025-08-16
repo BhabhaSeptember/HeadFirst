@@ -1,6 +1,6 @@
 package ch17_revisit;
 
-//Thread schedular is unpredictable
+//Thread schedular is unpredictable or 'not deterministic'
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
